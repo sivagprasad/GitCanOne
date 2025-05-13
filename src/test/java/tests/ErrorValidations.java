@@ -27,6 +27,8 @@ public class ErrorValidations extends BaseTest {
 		String error = landingPage.getErrorMessage();
 		System.out.println(error);
 		Assert.assertEquals(error, "Incorrect email  password.");
+		System.out.println("Hello");
+		System.out.println("dear sir");
 		
 		
 	}
