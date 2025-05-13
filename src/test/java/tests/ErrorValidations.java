@@ -33,6 +33,12 @@ public class ErrorValidations extends BaseTest {
 	}
 	
 	@Test
+	public void amercia()
+	{
+		System.out.println("good india");
+	}
+	
+	@Test
 	public void sample()
 	{
 		System.out.println("I am not a hero");
