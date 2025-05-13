@@ -26,6 +26,12 @@ import testComponents.BaseTest;
 
 public class StandAlone extends BaseTest {
 	String prodName = "IPHONE 13 PRO";
+	
+	@Test
+	public void getDatad()
+	{
+		System.out.println("This is my life");
+	}
 	@Test(dataProvider="getData",groups="Purchase")
 	public void SubmitOrder(HashMap<String,String>input) throws IOException, InterruptedException
 	{

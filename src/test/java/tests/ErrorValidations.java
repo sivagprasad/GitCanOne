@@ -33,6 +33,12 @@ public class ErrorValidations extends BaseTest {
 	}
 	
 	@Test
+	public void sample()
+	{
+		System.out.println("I am not a hero");
+	}
+	
+	@Test
 	public void ProductErrorValidation() throws IOException, InterruptedException	
 	{
 		// TODO Auto-generated method stub
