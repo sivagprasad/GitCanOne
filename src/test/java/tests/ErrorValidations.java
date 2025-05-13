@@ -27,9 +27,7 @@ public class ErrorValidations extends BaseTest {
 		String error = landingPage.getErrorMessage();
 		System.out.println(error);
 		Assert.assertEquals(error, "Incorrect email  password.");
-		System.out.println("Hello");
-		System.out.println("dear sir");
-		System.out.println("mansion");
+	
 		
 		
 	}
@@ -39,7 +37,7 @@ public class ErrorValidations extends BaseTest {
 	{
 		// TODO Auto-generated method stub
 		String prodName = "IPHONE 13 PRO";
-		String prd = "hello";
+		
 		
 		
 		ProductCatalogue productCatalogue = landingPage.loginApplication("gorre.sivaprasad@gmail.com", "Sivin@0906");
