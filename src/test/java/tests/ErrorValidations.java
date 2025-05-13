@@ -39,6 +39,7 @@ public class ErrorValidations extends BaseTest {
 	{
 		// TODO Auto-generated method stub
 		String prodName = "IPHONE 13 PRO";
+		String prd = "hello";
 		
 		
 		ProductCatalogue productCatalogue = landingPage.loginApplication("gorre.sivaprasad@gmail.com", "Sivin@0906");
